@@ -291,7 +291,7 @@ class MatcherBase {
   explicit MatcherBase(const MatcherInterface<T>* impl)
       : impl_(impl) {}
 
-  virtual ~MatcherBase() {}
+  virtual ~MatcherBase() = default;
 
  private:
   // shared_ptr (util/gtl/shared_ptr.h) and linked_ptr have similar
