@@ -367,6 +367,7 @@ class Action {
 
   // Copy constructor.
   Action(const Action& action) : impl_(action.impl_) {}
+  Action& operator=(const Action& action) = default;
 
   // This constructor allows us to turn an Action<Func> object into an
   // Action<F>, as long as F's arguments can be implicitly converted
