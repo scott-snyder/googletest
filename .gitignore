@@ -1,2 +1,9 @@
 # Ignore CI build directory
 build/
+googlemock/make/*.o
+googlemock/make/*.so
+googlemock/make/gmock_test
+googletest/make/*.o
+googletest/make/*.so
+googletest/make/sample1_unittest
+*~
