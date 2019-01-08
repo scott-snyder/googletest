@@ -1,5 +1,5 @@
 Bottom: 7cd07122db9c110006ffb17db02041ff84d5b699
-Top:    7cd07122db9c110006ffb17db02041ff84d5b699
+Top:    58b90473a1f66415f497ace8439e0f176b13c9dc
 Author: scott snyder <sss@karma>
 Date:   2019-01-08 15:09:25 -0500
 
@@ -8,4 +8,17 @@ gitignore
 
 ---
 
-
+diff --git a/.gitignore b/.gitignore
+index ce310bc..9587f1e 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,2 +1,9 @@
+ # Ignore CI build directory
+ build/
++googlemock/make/*.o
++googlemock/make/*.so
++googlemock/make/gmock_test
++googletest/make/*.o
++googletest/make/*.so
++googletest/make/sample1_unittest
++*~
