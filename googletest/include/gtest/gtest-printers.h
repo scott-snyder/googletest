@@ -232,6 +232,7 @@ template <typename Char, typename CharTraits, typename T>
 ::std::basic_ostream<Char, CharTraits>& operator<<(
     ::std::basic_ostream<Char, CharTraits>& os, const T& x) {
   TypeWithoutFormatter<T, (internal::IsAProtocolMessage<T>::value
+                           // cppcheck-suppress internalAstError
                                ? kProtobuf
                                : std::is_convertible<
                                      const T&, internal::BiggestInt>::value
