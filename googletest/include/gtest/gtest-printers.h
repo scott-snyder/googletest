@@ -203,6 +203,7 @@ template <typename Char, typename CharTraits, typename T>
 ::std::basic_ostream<Char, CharTraits>& operator<<(
     ::std::basic_ostream<Char, CharTraits>& os, const T& x) {
   TypeWithoutFormatter<T,
+                       //cppcheck-suppress internalAstError
       (internal::IsAProtocolMessage<T>::value ? kProtobuf :
        internal::ImplicitlyConvertible<const T&, internal::BiggestInt>::value ?
        kConvertibleToInteger : kOtherType)>::PrintValue(x, &os);
