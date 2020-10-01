@@ -1,0 +1,6 @@
+Bottom: 7d89a82536419f659b0be9cfe046bb2ca1d970eb
+Top:    7d89a82536419f659b0be9cfe046bb2ca1d970eb
+Author: scott snyder <sss@karma>
+Date:   2019-01-08 15:10:14 -0500
+
+Fix gcc9 warnings.

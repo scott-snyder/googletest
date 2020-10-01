@@ -1,8 +1,9 @@
 Version: 1
-Previous: 675ff18b9e8faf3a6bd9818e907a3184c9d8eca3
-Head: 594cf59f2f5f0653cac3f68c520354a1c746aadf
+Previous: 21e3c66919651a20e62496f36330e9e09c315ea8
+Head: a77e4e66b1257a180e11cb4851ebf85eb77af894
 Applied:
   gitignore: 0a9d62ac095f972b42f7bff8ef1c55f5a7190cb8
   make: 594cf59f2f5f0653cac3f68c520354a1c746aadf
+  gcc9: a77e4e66b1257a180e11cb4851ebf85eb77af894
 Unapplied:
 Hidden:
