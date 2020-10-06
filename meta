@@ -1,11 +1,10 @@
 Version: 1
-Previous: bade1d529828cb10719d085ed0d8ec3ed4f853b8
-Head: d8f9ab3567beeeb23d60d5bc52ab0c4b6d46dce3
+Previous: b2925d1d15934df94827807c0ecdc551a1b8e8fd
+Head: 8a45b4b8cc5f9fd552e7e723bc0d772d1cf08643
 Applied:
   gitignore: 0a9d62ac095f972b42f7bff8ef1c55f5a7190cb8
   make: 594cf59f2f5f0653cac3f68c520354a1c746aadf
   gcc9: a77e4e66b1257a180e11cb4851ebf85eb77af894
-  cppcheck: dade66c572601c46d0e340f132e0e42e01d476a9
-  refresh-temp: d8f9ab3567beeeb23d60d5bc52ab0c4b6d46dce3
+  cppcheck: 8a45b4b8cc5f9fd552e7e723bc0d772d1cf08643
 Unapplied:
 Hidden:
